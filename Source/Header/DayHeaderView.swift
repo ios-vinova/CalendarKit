@@ -23,7 +23,7 @@ public class DayHeaderView: UIView {
 
   var daySymbolsViewHeight: CGFloat = 20
   var pagingScrollViewHeight: CGFloat = 40
-  var swipeLabelViewHeight: CGFloat = 20
+  var swipeLabelViewHeight: CGFloat = 0
 
   lazy var daySymbolsView: DaySymbolsView = DaySymbolsView(daysInWeek: self.daysInWeek)
   let pagingScrollView = PagingScrollView<DaySelector>()
